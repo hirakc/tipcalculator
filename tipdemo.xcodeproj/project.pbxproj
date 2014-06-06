@@ -19,6 +19,8 @@
 		E6CB77BA19413ED700341C55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CB77A219413ED700341C55 /* UIKit.framework */; };
 		E6CB77C219413ED700341C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6CB77C019413ED700341C55 /* InfoPlist.strings */; };
 		E6CB77C419413ED700341C55 /* tipdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB77C319413ED700341C55 /* tipdemoTests.m */; };
+		E6CB77D01941400000341C55 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB77CE1941400000341C55 /* TipViewController.m */; };
+		E6CB77D11941400000341C55 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CB77CF1941400000341C55 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E6CB77BF19413ED700341C55 /* tipdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipdemoTests-Info.plist"; sourceTree = "<group>"; };
 		E6CB77C119413ED700341C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6CB77C319413ED700341C55 /* tipdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipdemoTests.m; sourceTree = "<group>"; };
+		E6CB77CD1941400000341C55 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		E6CB77CE1941400000341C55 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		E6CB77CF1941400000341C55 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				E6CB77AE19413ED700341C55 /* AppDelegate.m */,
 				E6CB77B019413ED700341C55 /* Images.xcassets */,
 				E6CB77A519413ED700341C55 /* Supporting Files */,
+				E6CB77CD1941400000341C55 /* TipViewController.h */,
+				E6CB77CE1941400000341C55 /* TipViewController.m */,
+				E6CB77CF1941400000341C55 /* TipViewController.xib */,
 			);
 			path = tipdemo;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CB77D11941400000341C55 /* TipViewController.xib in Resources */,
 				E6CB77A919413ED700341C55 /* InfoPlist.strings in Resources */,
 				E6CB77B119413ED700341C55 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CB77AF19413ED700341C55 /* AppDelegate.m in Sources */,
+				E6CB77D01941400000341C55 /* TipViewController.m in Sources */,
 				E6CB77AB19413ED700341C55 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
